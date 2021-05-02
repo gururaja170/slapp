@@ -191,6 +191,11 @@ document.getElementById("myForm").onsubmit = function (e) {
       '<li><h1 style="font-size:100px">😈</h1></li>' +
       '<li><h6 style="font-weight:bold;color:red;">...Virus Detected...</h6></li>' +
       '<li style="color:maroon;">Decide & Proceed</li>';
+  } else if (dName == "GURURAJA") {
+    document.getElementById("slb").style.display = "none";
+    document.getElementById("mBody").innerHTML +=
+      '<li><h1 class="text-center" style="font-size:100px">👻</h1></li>' +
+      "<li class='text-center' style=\"color:green;font-size:35px;font-family:open-sans\">Words Can't Describe <br>He's <br>Simply Creation<br>Beyond Description.</li>";
   } else {
     document.getElementById("slb").style.display = "none";
     dName.split("").forEach((element) => {
